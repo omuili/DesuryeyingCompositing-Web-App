@@ -2,10 +2,11 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import math
-import base64  # Import the base64 module
+import base64  
 
 st.image("logo.png", width=200)
-st.write("This web application is proudly brought to you by Neuralrocks")
+st.write("This web application is proudly brought to you by https://neuralrocks.com/")
+
 
 st.title("Drillhole Data Processing")
 
