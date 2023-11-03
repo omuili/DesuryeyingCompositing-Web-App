@@ -5,11 +5,15 @@ import math
 import base64  # Import the base64 module
 
 st.title("Drillhole Data Processing")
+st.image("logo.png", width=200)
 
 st.write("Welcome to the Drillhole Data Processing app. You can choose to either desurvey or compose drillhole data using this app.")
 
+st.image("logo.png", width=200)
 option = st.sidebar.selectbox(
     "Select an Option", ["Desurvey Data", "Compose Data"])
+st.write("This web application is proudly brought to you by Neuralrocks")
+
 
 if st.button("Reset", key="reset"):
     st.experimental_rerun()
