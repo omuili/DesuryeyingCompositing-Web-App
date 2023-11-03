@@ -4,7 +4,7 @@ import numpy as np
 import math
 import base64  
 
-st.image("logo.png", width=500)
+st.image("logo.png", width=400)
 st.write("This web application is proudly brought to you by https://neuralrocks.com/")
 
 
