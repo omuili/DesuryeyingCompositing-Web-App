@@ -4,8 +4,8 @@ import numpy as np
 import math
 import base64  
 
-st.image("logo.png", width=400)
-st.write("This web application is proudly brought to you by https://neuralrocks.com/")
+st.image("logo.png", width=300)
+st.write("This web application is proudly brought to you by Neuralrocks https://neuralrocks.com/")
 
 
 st.title("Drillhole Data Processing")
